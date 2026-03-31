@@ -44,7 +44,7 @@ After establishing the VPN connection, a ping test was performed to verify conne
 
 ---
 
-## STAGE 2: SCANNING
+## 2: SCANNING
 
 ### 2.1 Nmap Port Scan
 
@@ -111,7 +111,7 @@ A manual FTP connection was attempted to explore the service.
 
 ---
 
-## STAGE 3: GAINING ACCESS
+## 3: GAINING ACCESS
 
 ### 3.1 Metasploit Exploitation
 
@@ -129,7 +129,7 @@ Based on the vsftpd 2.3.4 vulnerability, Metasploit was used to exploit the back
 
 ---
 
-## STAGE 4: ESCALATE PRIVILEGES
+## 4: ESCALATE PRIVILEGES
 
 ### 4.1 Root Access Confirmation & Flag Capture
 
@@ -141,7 +141,7 @@ The exploit returned a shell with root privileges immediately. No additional pri
 
 ---
 
-## STAGE 5: MAINTAIN ACCESS
+## 5: MAINTAIN ACCESS
 
 ### 5.1 PwnTillDawn Portal Confirmation
 
